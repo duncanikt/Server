@@ -176,6 +176,7 @@ app.delete('/delete', (req, res) => {
 
 
 app.get('/', (req, res) => {
+  console.log('Received a request for /');
   res.send('Hello, world! This is my server.js code.');
 });
 
