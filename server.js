@@ -9,7 +9,7 @@ const GoogleStrategy = require('passport-google-oauth20').Strategy;
 const app = express();
 const port = process.env.PORT || 3000;
 
-// 敏感前端訊息隱藏
+// 前端敏感訊息隱藏
 const dotenv = require('dotenv');
 dotenv.config({ path: 'BackEnd.env' }); // 指定 BackEnd.env 檔案的路徑
 const MongoDB_URL = process.env.MongoDB_URL;
@@ -22,7 +22,7 @@ const clientID_OAuth2_0 = process.env.clientID_OAuth2_0;
 const clientSecret_OAuth2_0 = process.env.clientSecret_OAuth2_0;
 const callbackURL_OAuth2_0 = process.env.callbackURL_OAuth2_0;
 const Token_secretKey = process.env.Token_secretKey;
-// 敏感後端訊息隱藏
+// 後端敏感訊息隱藏
 const Up=process.env.Up;
 const Del=process.env.Del;
 const Max=process.env.Max;
