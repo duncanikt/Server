@@ -620,6 +620,7 @@ app.post('/sensitive-info', (req, res) => {
   const index_js04 = process.env.index_js04;
   const index_js05 = process.env.index_js05;
   const index_js06 = process.env.index_js06;
+  const index_js07 = process.env.index_js07;
 
   const GridBranch01_js01 = process.env.GridBranch01_js01;
   const GridBranch01_js02 = process.env.GridBranch01_js02;
@@ -642,6 +643,7 @@ app.post('/sensitive-info', (req, res) => {
     index_js04,
     index_js05,
     index_js06,
+    index_js07,
 
     GridBranch01_js01,
     GridBranch01_js02,
