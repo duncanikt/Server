@@ -609,6 +609,7 @@ app.get('/frontend', (req, res) => {
 app.post('/sensitive-info', (req, res) => {
   const useSensitiveEnv = req.body.useSensitiveEnv;
   // 使用對應的敏感訊息檔案
+  console.log('useSensitiveEnv:', useSensitiveEnv);
   const envPath = useSensitiveEnv ? 'sensitive.env' : 'sensitive00.env'; //sensitive.env對應aws前端伺服器使用相對路徑。sensitive00.env對應GitHub page使用絕對路徑。
   require('dotenv').config({ path: envPath });
 
