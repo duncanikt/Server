@@ -588,8 +588,6 @@ app.get(DataData, authenticateUser, (req, res) => {
 
 // 登出路由
 app.post(LogoutLogout, (req, res) => {
-  console.log(`進入logout`);
-
   // 這裡不需要使用Passport的方法來處理登出，只需要回傳一個成功的訊息即可
   res.json({ message: '登出成功' });
 });
@@ -622,7 +620,7 @@ app.post('/sensitive-info', (req, res) => {
   const index_js05 = process.env.index_js05;
   const index_js06 = process.env.index_js06;
   const index_js07 = process.env.index_js07;
-
+  
   const GridBranch01_js01 = process.env.GridBranch01_js01;
   const GridBranch01_js02 = process.env.GridBranch01_js02;
   const GridBranch01_js03 = process.env.GridBranch01_js03;
