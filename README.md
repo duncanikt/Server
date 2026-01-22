@@ -14,7 +14,7 @@ GitHub：https://github.com/duncanikt
 
 作品連結：
 
-GitHub Pages- https://duncanikt.github.io/publicity
+GitHub Pages- https://duncanikt.github.io/publicity （目前未付費停運）
 
 AWS Server- https://duncanikt.ddns.net/frontend （目前未付費停運）
 
